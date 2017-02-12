@@ -1,0 +1,458 @@
+2017-01-30 10:01:05,018 [Worker-15] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.1]
+org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Directory couvrage already exists - please run from a clean directory
+	at org.apache.maven.archetype.old.DefaultOldArchetype.createArchetype(DefaultOldArchetype.java:245) ~[archetype-common-2.3.jar:2.3]
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processOldArchetype(DefaultArchetypeGenerator.java:135) ~[archetype-common-2.3.jar:2.3]
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:104) ~[archetype-common-2.3.jar:2.3]
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143) ~[archetype-common-2.3.jar:2.3]
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169) ~[archetype-common-2.3.jar:2.3]
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73) ~[archetype-common-2.3.jar:2.3]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:811) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:760) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:1) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:758) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$5.doCreateMavenProjects(MavenProjectWizard.java:243) [org.eclipse.m2e.core.ui_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:50) [org.eclipse.m2e.core.ui_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62) [org.eclipse.m2e.core.ui_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:54) [org.eclipse.m2e.core.ui_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2017-01-30 10:01:37,693 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-plugin/1.2/maven-archetype-plugin-1.2.jar
+2017-01-30 10:01:40,735 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-plugin/1.2/maven-archetype-plugin-1.2.jar
+2017-01-30 10:01:40,782 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-plugin/1.2/maven-archetype-plugin-1.2.pom
+2017-01-30 10:01:40,876 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-plugin/1.2/maven-archetype-plugin-1.2.pom
+2017-01-30 10:02:10,289 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml
+2017-01-30 10:02:11,261 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.2/maven-plugin-plugin-3.2.pom
+2017-01-30 10:02:11,339 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.2/maven-plugin-plugin-3.2.pom
+2017-01-30 10:02:11,411 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom
+2017-01-30 10:02:11,475 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom
+2017-01-30 10:02:11,755 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.2/maven-plugin-plugin-3.2.jar
+2017-01-30 10:02:12,128 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.2/maven-plugin-plugin-3.2.jar
+2017-01-30 10:02:32,461 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-01-30 10:02:32,871 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom
+2017-01-30 10:02:33,084 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom
+2017-01-30 10:02:33,863 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom
+2017-01-30 10:02:33,933 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom
+2017-01-30 10:02:34,224 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom
+2017-01-30 10:02:34,285 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom
+2017-01-30 10:02:34,482 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+2017-01-30 10:02:34,693 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+2017-01-30 10:02:34,707 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+2017-01-30 10:02:35,116 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+2017-01-30 10:02:35,129 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+2017-01-30 10:02:35,259 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+2017-01-30 10:02:35,280 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar
+2017-01-30 10:02:35,662 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar
+2017-01-30 10:02:48,246 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kawaku-couvrage-fab/src/main/java
+2017-01-30 10:02:48,268 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kawaku-couvrage-fab/src/test/java
+2017-01-30 10:02:49,087 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 38 sec
+2017-01-30 10:02:55,887 [Worker-8] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/KWAKU/AppData/Local/Temp/RemoteBundleDiscoveryStrategy7829393502401069283.tmp/org.eclipse.m2e.discovery.oss_catalog_1.6.jar_1078904133953131354.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-egit.xml
+2017-01-30 10:02:55,900 [Worker-8] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2017-01-30 10:02:56,003 [Worker-8] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/KWAKU/AppData/Local/Temp/RemoteBundleDiscoveryStrategy7829393502401069283.tmp/org.eclipse.m2e.discovery.oss_catalog_1.6.jar_1078904133953131354.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive.xml
+2017-01-30 10:02:56,004 [Worker-8] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2017-01-30 10:02:57,535 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:02:57,535 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:02:57,552 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:02:57,565 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:06:23,567 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-01-30 10:06:23,569 [Worker-21] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-01-30 10:09:54,885 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-01-30 10:10:05,405 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-01-30 10:10:11,171 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kawaku-couvrage-fab/src/main/java
+2017-01-30 10:10:11,172 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kawaku-couvrage-fab/src/test/java
+2017-01-30 10:10:11,857 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 16 sec
+2017-01-30 10:10:14,361 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:10:14,362 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:10:17,224 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.2/maven-plugin-tools-annotations-3.2.pom
+2017-01-30 10:10:17,289 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.2/maven-plugin-tools-annotations-3.2.pom
+2017-01-30 10:10:17,684 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.2/maven-plugin-tools-api-3.2.pom
+2017-01-30 10:10:17,752 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.2/maven-plugin-tools-api-3.2.pom
+2017-01-30 10:10:18,054 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.1/plexus-archiver-2.1.1.pom
+2017-01-30 10:10:18,104 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.1/plexus-archiver-2.1.1.pom
+2017-01-30 10:10:18,152 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.3/plexus-io-2.0.3.pom
+2017-01-30 10:10:18,236 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.3/plexus-io-2.0.3.pom
+2017-01-30 10:10:18,431 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom
+2017-01-30 10:10:18,614 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom
+2017-01-30 10:10:18,836 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.pom
+2017-01-30 10:10:18,888 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.pom
+2017-01-30 10:10:18,953 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
+2017-01-30 10:10:19,108 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
+2017-01-30 10:10:19,412 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.2/doxia-logging-api-1.2.pom
+2017-01-30 10:10:19,505 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.2/doxia-logging-api-1.2.pom
+2017-01-30 10:10:19,609 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.2/doxia-site-renderer-1.2.pom
+2017-01-30 10:10:20,051 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.2/doxia-site-renderer-1.2.pom
+2017-01-30 10:10:20,252 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.2/doxia-sitetools-1.2.pom
+2017-01-30 10:10:20,344 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.2/doxia-sitetools-1.2.pom
+2017-01-30 10:10:20,417 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.pom
+2017-01-30 10:10:20,485 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.pom
+2017-01-30 10:10:20,550 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+2017-01-30 10:10:20,616 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+2017-01-30 10:10:20,741 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom
+2017-01-30 10:10:20,800 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom
+2017-01-30 10:10:21,165 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom
+2017-01-30 10:10:21,249 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom
+2017-01-30 10:10:21,295 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom
+2017-01-30 10:10:21,448 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom
+2017-01-30 10:10:21,544 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom
+2017-01-30 10:10:21,670 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom
+2017-01-30 10:10:21,730 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+2017-01-30 10:10:22,105 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+2017-01-30 10:10:22,887 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+2017-01-30 10:10:23,024 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+2017-01-30 10:10:23,089 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
+2017-01-30 10:10:23,371 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
+2017-01-30 10:10:24,008 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+2017-01-30 10:10:24,290 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+2017-01-30 10:10:24,391 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.2/doxia-decoration-model-1.2.pom
+2017-01-30 10:10:24,539 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.2/doxia-decoration-model-1.2.pom
+2017-01-30 10:10:24,672 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.2/doxia-module-xhtml-1.2.pom
+2017-01-30 10:10:24,815 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.2/doxia-module-xhtml-1.2.pom
+2017-01-30 10:10:24,943 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.2/doxia-modules-1.2.pom
+2017-01-30 10:10:25,075 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.2/doxia-modules-1.2.pom
+2017-01-30 10:10:25,195 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.2/doxia-module-fml-1.2.pom
+2017-01-30 10:10:25,319 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.2/doxia-module-fml-1.2.pom
+2017-01-30 10:10:25,500 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.pom
+2017-01-30 10:10:25,581 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.pom
+2017-01-30 10:10:25,695 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.12/plexus-components-1.1.12.pom
+2017-01-30 10:10:25,748 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.12/plexus-components-1.1.12.pom
+2017-01-30 10:10:26,078 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom
+2017-01-30 10:10:26,233 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom
+2017-01-30 10:10:26,595 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.2/maven-plugin-tools-generators-3.2.pom
+2017-01-30 10:10:26,670 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.2/maven-plugin-tools-generators-3.2.pom
+2017-01-30 10:10:27,040 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
+2017-01-30 10:10:27,140 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
+2017-01-30 10:10:27,271 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
+2017-01-30 10:10:27,695 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
+2017-01-30 10:10:28,088 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/10/maven-parent-10.pom
+2017-01-30 10:10:28,191 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/10/maven-parent-10.pom
+2017-01-30 10:10:28,366 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.pom
+2017-01-30 10:10:28,431 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.pom
+2017-01-30 10:10:28,510 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.pom
+2017-01-30 10:10:28,627 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.pom
+2017-01-30 10:10:28,714 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
+2017-01-30 10:10:28,768 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
+2017-01-30 10:10:28,813 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
+2017-01-30 10:10:28,895 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
+2017-01-30 10:10:28,941 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.pom
+2017-01-30 10:10:28,998 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.1.2/doxia-logging-api-1.1.2.pom
+2017-01-30 10:10:29,064 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.pom
+2017-01-30 10:10:29,165 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.1.2/doxia-core-1.1.2.pom
+2017-01-30 10:10:29,211 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.pom
+2017-01-30 10:10:29,261 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.pom
+2017-01-30 10:10:29,306 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom
+2017-01-30 10:10:29,365 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom
+2017-01-30 10:10:29,443 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/1/apache-1.pom
+2017-01-30 10:10:29,503 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/1/apache-1.pom
+2017-01-30 10:10:29,785 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.pom
+2017-01-30 10:10:29,916 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.1.2/doxia-site-renderer-1.1.2.pom
+2017-01-30 10:10:30,000 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.1.2/doxia-sitetools-1.1.2.pom
+2017-01-30 10:10:30,067 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.1.2/doxia-sitetools-1.1.2.pom
+2017-01-30 10:10:30,156 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.pom
+2017-01-30 10:10:30,230 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.1.2/doxia-decoration-model-1.1.2.pom
+2017-01-30 10:10:30,280 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.pom
+2017-01-30 10:10:30,338 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.1.2/doxia-module-xhtml-1.1.2.pom
+2017-01-30 10:10:30,383 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.1.2/doxia-modules-1.1.2.pom
+2017-01-30 10:10:30,472 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.1.2/doxia-modules-1.1.2.pom
+2017-01-30 10:10:30,523 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.pom
+2017-01-30 10:10:30,608 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.1.2/doxia-module-fml-1.1.2.pom
+2017-01-30 10:10:30,659 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2/commons-collections-3.2.pom
+2017-01-30 10:10:30,732 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2/commons-collections-3.2.pom
+2017-01-30 10:10:31,399 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.2/maven-plugin-tools-java-3.2.pom
+2017-01-30 10:10:31,464 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.2/maven-plugin-tools-java-3.2.pom
+2017-01-30 10:10:31,534 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-beanshell/3.2/maven-plugin-tools-beanshell-3.2.pom
+2017-01-30 10:10:31,605 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-beanshell/3.2/maven-plugin-tools-beanshell-3.2.pom
+2017-01-30 10:10:31,680 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/bsh/bsh/1.3.0/bsh-1.3.0.pom
+2017-01-30 10:10:31,735 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/bsh/bsh/1.3.0/bsh-1.3.0.pom
+2017-01-30 10:10:31,799 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-model/3.2/maven-plugin-tools-model-3.2.pom
+2017-01-30 10:10:31,863 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-model/3.2/maven-plugin-tools-model-3.2.pom
+2017-01-30 10:10:32,277 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.2/maven-plugin-tools-annotations-3.2.jar
+2017-01-30 10:10:32,629 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-annotations/3.2/maven-plugin-tools-annotations-3.2.jar
+2017-01-30 10:10:32,642 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.1/plexus-archiver-2.1.1.jar
+2017-01-30 10:10:32,826 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1.1/plexus-archiver-2.1.1.jar
+2017-01-30 10:10:32,877 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.3/plexus-io-2.0.3.jar
+2017-01-30 10:10:32,981 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.3/plexus-io-2.0.3.jar
+2017-01-30 10:10:33,004 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar
+2017-01-30 10:10:33,135 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar
+2017-01-30 10:10:33,152 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.jar
+2017-01-30 10:10:33,320 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.jar
+2017-01-30 10:10:33,338 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.2/doxia-logging-api-1.2.jar
+2017-01-30 10:10:33,597 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.2/doxia-logging-api-1.2.jar
+2017-01-30 10:10:33,617 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.2/doxia-site-renderer-1.2.jar
+2017-01-30 10:10:33,718 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.2/doxia-site-renderer-1.2.jar
+2017-01-30 10:10:33,741 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.jar
+2017-01-30 10:10:33,851 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.jar
+2017-01-30 10:10:33,886 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+2017-01-30 10:10:34,432 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+2017-01-30 10:10:34,458 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar
+2017-01-30 10:10:34,624 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar
+2017-01-30 10:10:34,645 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+2017-01-30 10:10:34,784 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+2017-01-30 10:10:34,804 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.jar
+2017-01-30 10:10:34,865 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.jar
+2017-01-30 10:10:34,885 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.2/doxia-decoration-model-1.2.jar
+2017-01-30 10:10:34,956 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.2/doxia-decoration-model-1.2.jar
+2017-01-30 10:10:34,975 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.2/doxia-module-xhtml-1.2.jar
+2017-01-30 10:10:35,150 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.2/doxia-module-xhtml-1.2.jar
+2017-01-30 10:10:35,172 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.2/doxia-module-fml-1.2.jar
+2017-01-30 10:10:35,511 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.2/doxia-module-fml-1.2.jar
+2017-01-30 10:10:35,528 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+2017-01-30 10:10:35,642 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar
+2017-01-30 10:10:35,662 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.2/maven-plugin-tools-api-3.2.jar
+2017-01-30 10:10:35,933 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.2/maven-plugin-tools-api-3.2.jar
+2017-01-30 10:10:35,956 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.2/maven-plugin-tools-generators-3.2.jar
+2017-01-30 10:10:36,362 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-generators/3.2/maven-plugin-tools-generators-3.2.jar
+2017-01-30 10:10:36,386 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.jar
+2017-01-30 10:10:36,536 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/jtidy/jtidy/r938/jtidy-r938.jar
+2017-01-30 10:10:36,557 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar
+2017-01-30 10:10:36,751 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.1/maven-reporting-impl-2.1.jar
+2017-01-30 10:10:36,778 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.2/maven-plugin-tools-java-3.2.jar
+2017-01-30 10:10:36,937 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-java/3.2/maven-plugin-tools-java-3.2.jar
+2017-01-30 10:10:36,957 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-beanshell/3.2/maven-plugin-tools-beanshell-3.2.jar
+2017-01-30 10:10:37,261 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-beanshell/3.2/maven-plugin-tools-beanshell-3.2.jar
+2017-01-30 10:10:37,286 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/bsh/bsh/1.3.0/bsh-1.3.0.jar
+2017-01-30 10:10:37,429 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/bsh/bsh/1.3.0/bsh-1.3.0.jar
+2017-01-30 10:10:37,448 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-model/3.2/maven-plugin-tools-model-3.2.jar
+2017-01-30 10:10:37,684 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools/maven-plugin-tools-model/3.2/maven-plugin-tools-model-3.2.jar
+2017-01-30 10:10:37,697 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+2017-01-30 10:10:37,933 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+2017-01-30 10:10:49,153 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-01-30 10:10:49,185 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-01-30 10:10:49,330 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-01-30 10:10:49,356 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-01-30 10:10:49,357 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-01-30 10:10:49,379 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-01-30 10:10:49,471 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-01-30 10:10:49,837 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-01-30 10:10:49,838 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-01-30 10:10:49,861 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-01-30 10:10:49,861 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-01-30 10:10:49,861 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-01-30 10:10:49,862 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-01-30 10:10:49,915 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-01-30 10:10:49,941 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:10:49,942 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:12:03,717 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:12:03,762 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:12:03,765 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:12:03,804 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:13:08,331 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:13:08,360 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:13:08,393 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:13:08,420 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:14:07,678 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:14:07,698 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:14:07,713 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:14:07,727 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:15:35,626 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:15:35,664 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:15:35,687 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:15:35,718 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:17:41,322 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-01-30 10:17:42,889 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:17:42,975 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:17:42,995 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:17:42,996 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:17:45,905 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:17:45,906 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:17:45,911 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:17:45,911 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:19:08,214 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:19:08,230 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:19:08,258 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:19:08,259 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:23:27,906 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:23:27,906 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:23:27,909 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:23:27,909 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:24:44,883 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:24:44,896 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:24:44,911 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:24:44,911 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:24:46,011 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:24:46,012 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:24:46,015 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:24:46,015 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 10:25:27,669 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:25:27,749 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 10:25:27,773 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 10:25:27,774 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:02:09,603 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-01-30 11:02:10,644 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:02:10,645 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:02:10,650 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:02:10,662 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:04:16,802 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/sonar/sonar-maven-plugin/5.3/sonar-maven-plugin-5.3.pom
+2017-01-30 11:04:16,853 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.sonar:sonar-maven-plugin:jar:5.3 is missing, no dependency information available
+2017-01-30 11:04:17,307 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/sonar/sonar-maven-plugin/5.3/sonar-maven-plugin-5.3.jar
+2017-01-30 11:04:18,562 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-01-30 11:04:18,585 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.sonar:sonar-maven-plugin:jar:5.3 is missing, no dependency information available
+2017-01-30 11:04:19,294 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:04:19,307 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:04:19,323 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:04:19,323 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:08:12,027 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.sonar:sonar-maven-plugin:jar:5.3 is missing, no dependency information available
+2017-01-30 11:08:12,431 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:08:12,459 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:08:12,495 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.sonar:sonar-maven-plugin:jar:5.3 is missing, no dependency information available
+2017-01-30 11:08:12,735 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:08:12,735 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:08:25,427 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-01-30 11:08:25,738 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/sonar/sonar-maven-plugin/5.1/sonar-maven-plugin-5.1.pom
+2017-01-30 11:08:25,795 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/sonar/sonar-maven-plugin/5.1/sonar-maven-plugin-5.1.pom
+2017-01-30 11:08:25,842 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/sonar/sonar/5.1/sonar-5.1.pom
+2017-01-30 11:08:25,946 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/sonar/sonar/5.1/sonar-5.1.pom
+2017-01-30 11:08:26,263 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/sonar/sonar-maven-plugin/5.1/sonar-maven-plugin-5.1.jar
+2017-01-30 11:08:26,384 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/sonar/sonar-maven-plugin/5.1/sonar-maven-plugin-5.1.jar
+2017-01-30 11:08:27,364 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:08:27,378 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:08:27,393 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:08:27,406 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:08:31,534 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:08:31,619 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:08:31,705 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:08:31,785 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:24:49,668 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:24:49,685 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:24:49,704 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:24:49,724 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:54:52,082 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:54:52,116 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:54:52,137 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:54:52,151 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:55:26,480 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:55:26,493 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:55:26,508 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:55:26,524 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-30 11:55:34,075 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:55:34,088 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-30 11:55:40,347 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-01-30 11:55:40,374 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-01-30 11:55:40,513 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-01-30 11:55:40,526 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-01-30 11:55:40,527 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-01-30 11:55:40,546 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-01-30 11:55:40,748 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-01-30 11:55:41,073 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-01-30 11:55:41,074 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-01-30 11:55:41,150 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-01-30 11:55:41,150 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-01-30 11:55:41,164 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-01-30 11:55:41,164 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-01-30 11:55:41,267 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-01-30 11:55:41,375 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-30 11:55:41,388 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-31 09:13:34,181 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-01-31 09:13:38,998 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-31 09:13:38,998 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-31 09:13:47,556 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-01-31 09:13:47,591 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-01-31 09:13:47,753 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-01-31 09:13:47,754 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-01-31 09:13:47,756 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-01-31 09:13:47,761 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-01-31 09:13:47,938 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-01-31 09:13:48,554 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-01-31 09:13:48,555 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-01-31 09:13:48,567 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-01-31 09:13:48,567 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-01-31 09:13:48,568 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-01-31 09:13:48,568 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-01-31 09:13:48,724 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-01-31 09:13:48,745 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-31 09:13:48,745 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-31 09:13:48,814 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-01-31 09:13:50,263 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-01-31 09:13:50,918 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kawaku-couvrage-fab/src/main/java
+2017-01-31 09:13:50,920 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kawaku-couvrage-fab/src/test/java
+2017-01-31 09:13:51,315 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-01-31 09:14:04,461 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-31 09:14:04,474 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-31 09:14:06,223 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-01-31 09:14:06,237 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-01-31 09:14:06,407 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-01-31 09:14:06,419 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-01-31 09:14:06,431 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-01-31 09:14:06,437 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-01-31 09:14:06,648 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-01-31 09:14:06,886 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-01-31 09:14:06,886 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-01-31 09:14:06,898 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-01-31 09:14:06,910 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-01-31 09:14:06,910 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-01-31 09:14:06,910 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-01-31 09:14:06,991 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-01-31 09:14:07,023 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-31 09:14:07,024 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-31 09:16:05,769 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-31 09:16:05,770 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-31 09:16:05,772 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-31 09:16:05,772 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-01-31 09:16:07,024 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-31 09:16:07,024 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-01-31 09:16:07,038 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-01-31 09:16:07,039 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-02-01 15:50:04,837 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-02-01 15:50:11,170 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-01 15:50:11,170 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-02-01 15:50:34,364 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-02-01 15:50:34,426 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-02-01 15:50:34,691 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-02-01 15:50:34,691 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-02-01 15:50:34,691 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-02-01 15:50:34,691 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-02-01 15:50:34,956 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-02-01 15:50:36,579 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-02-01 15:50:36,579 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-02-01 15:50:36,626 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-02-01 15:50:36,626 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-02-01 15:50:36,626 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-02-01 15:50:36,626 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-02-01 15:50:37,047 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 1 mojo descriptors.
+2017-02-01 15:50:37,624 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-01 15:50:37,624 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-02-01 15:50:37,718 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-01 15:50:39,714 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-02-01 15:50:40,650 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kawaku-couvrage-fab/src/main/java
+2017-02-01 15:50:40,666 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /kawaku-couvrage-fab/src/test/java
+2017-02-01 15:50:42,070 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-02-01 15:50:59,199 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-01 15:50:59,230 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-02-01 15:51:01,274 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-02-01 15:51:01,289 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-02-01 15:51:01,430 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-02-01 15:51:01,445 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-02-01 15:51:01,461 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-02-01 15:51:01,477 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-02-01 15:51:01,617 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 0 mojo descriptors.
+2017-02-01 15:51:01,757 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-02-01 15:51:01,757 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-02-01 15:51:01,773 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-02-01 15:51:01,789 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-02-01 15:51:01,789 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-02-01 15:51:01,789 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-02-01 15:51:01,867 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 0 mojo descriptors.
+2017-02-01 15:51:01,882 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-01 15:51:01,882 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-02-12 10:46:08,070 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: kwaku-couvrage:kawaku-couvrage-fab:0.0.1-SNAPSHOT @ C:\Users\KWAKU\workspace\kawaku-couvrage-fab\pom.xml.
+2017-02-12 10:46:12,619 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-12 10:46:12,620 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\main\resources
+2017-02-12 10:46:22,392 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-02-12 10:46:22,420 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-02-12 10:46:22,599 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-02-12 10:46:22,600 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-02-12 10:46:22,601 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-02-12 10:46:22,606 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-02-12 10:46:22,787 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 0 mojo descriptors.
+2017-02-12 10:46:22,902 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to read mojo metadata.
+2017-02-12 10:46:22,902 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java
+2017-02-12 10:46:22,909 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java found 0 mojo descriptors.
+2017-02-12 10:46:22,910 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: bsh
+2017-02-12 10:46:22,910 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: bsh found 0 mojo descriptors.
+2017-02-12 10:46:22,910 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Applying mojo extractor for language: java-annotations
+2017-02-12 10:46:23,090 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Mojo extractor for language: java-annotations found 0 mojo descriptors.
+2017-02-12 10:46:23,109 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-12 10:46:23,110 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KWAKU\workspace\kawaku-couvrage-fab\src\test\resources
+2017-02-12 10:55:49,679 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"1.8.0_66","java.vendor":"Oracle Corporation","os.name":"Windows 7","os.arch":"x86","os.version":"6.1","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.5.2.M20160212-1500","projectCount":1,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.10.102.v20160118-1700"},{"symbolicName":"org.eclipse.m2e.core","version":"1.6.2.20150902-0002"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-plugin-plugin:3.2:addPluginArtifactMetadata":[],"org.apache.maven.plugins:maven-plugin-plugin:3.2:descriptor":["execute"],"org.apache.maven.plugins:maven-plugin-plugin:3.2:helpmojo":["ignore"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test":[]}}
